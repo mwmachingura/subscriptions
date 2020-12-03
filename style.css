@@ -1,0 +1,184 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: floralwhite;
+}
+
+.welcome {
+    background-image: url('indexpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section {
+    width: auto;
+    height: auto;
+    margin: auto 0px;
+}
+
+.form {
+    display: block;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    border-color: turquoise;
+    margin-top: 30px;
+}
+
+div {
+    display: inline-block;
+}
+
+h2 {
+    font-size: 30px;
+    color: beige;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+}
+
+.index {
+    margin-left: 350px;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+form {
+    display: inline-block;
+    margin: auto;
+    text-align: left;
+}
+
+label {
+    font-size: 20px;
+    width: 100px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    border-style: inset;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+input [type="submit"] {
+    margin-left: 100px;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: darkslategray;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.nav a {
+    float: left;
+    font-size: 16px;
+    color: wheat;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 210px;
+}
+
+.nav a:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+.entry-form-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.page-header {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 100px 0px;
+}
+
+.entry-form-container label {
+    font-size: 20px;
+    width: 200px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.entry-form-container input {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.table {
+    text-align: center;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.display-table-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+}

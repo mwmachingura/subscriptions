@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>New Subscriber</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div class="nav">
+        <a href="adduser.html">Create New User</a>
+        <a href="enterrecord.html">Create New Subscriber</a>
+        <a href="viewuser.php">View User</a>
+        <a href="viewrecord.php">View Subscibers</a>
+        <a href="index.html">HomePage</a>
+    </div>
+    <div class="entry-form-container">
+        <section>
+            <div class="form">
+                <h3>Creating a new subscription record. <br>Please enter the correct details</h3>
+                <form action="enterrecord.php" method="POST">
+                    <div>
+                        <label for="firstname">Name</label>
+                        <input type="text" name="firstname" autofocus>
+                        <label for="lastname">Last Name</label>
+                        <input type="text" name="lastname">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" name="dob">
+                        <label for="email">E-Mail Address</label>
+                        <input type="text" name="email">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="mobile">Mobile Number</label>
+                        <input type="text" name="mobile">
+                        <label for="postal">Postal Address</label>
+                        <input type="text" name="postal">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="subscription">Subscription Type</label>
+                        <input type="text" name="subscription">
+                        <label for="delivery">Delivery Method</label>
+                        <input type="text" name="delivery">
+                    </div>
+                    <br>
+                    <div class="btn">
+                        <button type="reset" value="Clear">Clear</button>
+                        <button type="submit" value="Submit">Submit</button>
+                    </div>
+                    <br>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
